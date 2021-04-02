@@ -9,6 +9,6 @@ btn.addEventListener("click", function () {
     let hexNumber = Math.floor(Math.random() * hex.length);
     randomNumber += hex[hexNumber];
   }
-  document.body.style.backgroundColor = hex[randomNumber];
-  color.textContent = hex[randomNumber];
+  document.body.style.backgroundColor = randomNumber;
+  color.textContent = randomNumber;
 });
