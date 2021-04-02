@@ -1,0 +1,16 @@
+const hex = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"];
+
+let btn = document.getElementById("btn");
+let color = document.querySelector(".color");
+
+btn.addEventListener("click", function () {
+  setInterval(function () {
+    let randomNumber = "#";
+    for (let i = 0; i < 6; i++) {
+      let hexNumber = Math.floor(Math.random() * hex.length);
+      randomNumber += hex[hexNumber];
+    }
+    document.body.style.backgroundColor = randomNumber;
+    color.textContent = randomNumber;
+  }, 500);
+});
