@@ -7,4 +7,5 @@
 2. **Counter**
 3. **navbar**
 4. **Reviews Slider**
+5. **Sidebar**
 
