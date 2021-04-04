@@ -8,4 +8,5 @@
 3. **navbar**
 4. **Reviews Slider**
 5. **Sidebar**
+6. **Menu**
 
